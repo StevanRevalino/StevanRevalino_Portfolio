@@ -8,7 +8,7 @@
 ### Website Preview
 <p align="center"> 
   <kbd>
-    <a href="https://yamizen24.github.io/StevanRevalino_Portfolio/" target="_blank"><img src="examples/preview.jpeg">
+    <a href="https://yamizen24.github.io/StevanRevalino_Portfolio/" target="_blank"><img src="preview/main.jpg">
   </a>
   </kbd>
 </p>
