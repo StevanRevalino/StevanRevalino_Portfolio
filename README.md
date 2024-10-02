@@ -1,6 +1,10 @@
+### Hello My name is Stevan Revalino from Binus University 👋
+
 # Personal Portfolio
 
-> https://yamizen24.github.io/StevanRevalino_Portfolio/
+> https://yamizen24.github.io/StevanRevalino_Portfolio/ (Portfolio Link)\
+> \
+> https://drive.google.com/drive/folders/1Z1mq6y1FOlS96prdZaY62i7LD1OX2gAD?usp=drive_link (All Project)
 
 [![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/stevan-revalino/)
 
@@ -17,9 +21,9 @@
 ## Sections 📚
 ✔️ About me\
 ✔️ Specializations\
-✔️ Projects \
-✔️ Skills \
-✔️ Contact Info\
+✔️ Projects\
+✔️ Skills\
+✔️ Contact Info
 
 ## Tools Used 🛠️
 * [<b>VS Codes</b>](https://code.visualstudio.com/) - To make my static website (HTML, CSS, JS).
