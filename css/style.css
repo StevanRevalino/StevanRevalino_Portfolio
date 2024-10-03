@@ -186,6 +186,36 @@ main {
   display: flex;
   justify-content: center;
 }
+
+.slideLeft {
+  animation: slideLeft 1s linear forwards;
+}
+
+@keyframes slideLeft {
+  0%{
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+h3 .slideLeft{
+  animation-delay: 1s;
+}
+
+h1.slideLeft{
+  animation-delay: 1s;
+  opacity: 0;
+}
+
+p.slideLeft{
+  animation-delay: 2s;
+  opacity: 0;
+}
+
 /* --services first-- */
 #services {
   background-color: var(--secondaryBackgroundColor);
