@@ -521,10 +521,6 @@ p.slideLeft{
 .ContactIcon svg {
   fill: var(--primaryIconColor);
 }
-.ContactDetail h4 {
-  margin-bottom: 0.6rem;
-}
-
 /* --contact end */
 
 /* --footer first */
