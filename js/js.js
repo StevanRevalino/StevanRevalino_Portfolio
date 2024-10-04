@@ -43,7 +43,7 @@ function typingAnimation() {
     text.textContent = textContentStevan.substring(0, index + 1);
     text.style.color = '#352f23'; 
     index++;
-    setTimeout(typingAnimation, 200);
+    setTimeout(typingAnimation, 100);
   } else {
     setTimeout(() => {
       const revalinoText = document.createElement('span');
@@ -53,7 +53,7 @@ function typingAnimation() {
         if (revalinoIndex < textContentRevalino.length) {
           revalinoText.textContent = textContentRevalino.substring(0, revalinoIndex + 1);
           revalinoIndex++;
-          setTimeout(revalinoTypingAnimation, 200);
+          setTimeout(revalinoTypingAnimation, 100);
         }
       }
       revalinoTypingAnimation();
