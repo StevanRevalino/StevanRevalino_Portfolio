@@ -2,7 +2,7 @@
 
 # Personal Portfolio
 
-> https://stevanrevalino.github.io/StevanRevalino_Portfolio/\
+> https://stevanrevalino.github.io/StevanRevalino_Portfolio \
 > \
 > https://drive.google.com/drive/folders/1Z1mq6y1FOlS96prdZaY62i7LD1OX2gAD?usp=drive_link (All Project)
 
