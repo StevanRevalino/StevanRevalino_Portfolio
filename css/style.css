@@ -450,9 +450,10 @@ p.slideLeft {
 }
 .skillsLayout {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, minmax(150px, 1fr));
   gap: 3rem;
   padding: 0 1rem;
+  grid-template-rows: repeat(2, 1fr);
 }
 
 .skillsBox {
@@ -481,11 +482,12 @@ p.slideLeft {
 }
 .skillsLayout .skillsBoxImg {
   height: 2rem;
-  width: 3rem;
+  width: 2rem;
 }
 .skillsLayout .skillsBoxImg img {
-  width: 60%;
+  width: 100%;
   height: 100%;
+  object-fit: contain;
 }
 .skillsLayout .skillsBoxTitle {
   font-size: 1rem;
@@ -574,6 +576,11 @@ footer {
 @media screen and (max-width: 1200px) {
   .main_container {
     width: 90%;
+  }
+
+  .skillsLayout {
+    grid-template-columns: repeat(1, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
   }
 }
 /* media screen 1200px end */
