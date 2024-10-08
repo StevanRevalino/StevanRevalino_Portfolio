@@ -227,26 +227,26 @@ main {
 }
 
 @keyframes slideLeft {
-  0%{
+  0% {
     transform: translateX(100px);
     opacity: 0;
   }
-  100%{
+  100% {
     transform: translateX(0px);
     opacity: 1;
   }
 }
 
-h3 .slideLeft{
+h3 .slideLeft {
   animation-delay: 1s;
 }
 
-h1.slideLeft{
+h1.slideLeft {
   animation-delay: 1s;
   opacity: 0;
 }
 
-p.slideLeft{
+p.slideLeft {
   animation-delay: 2s;
   opacity: 0;
 }
@@ -304,7 +304,7 @@ p.slideLeft{
 .service:hover {
   transform: scale(1.05);
   transition: 0.3s ease-in-out;
-  box-shadow: (0,0,0,0.2) 0px 3px 8px;
+  box-shadow: (0, 0, 0, 0.2) 0px 3px 8px;
 }
 /* --services end-- */
 
@@ -340,11 +340,6 @@ p.slideLeft{
 .portfolioCover {
   height: 250px;
 }
-.portfolioCover img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
 .portfolioSlider {
   position: relative;
@@ -359,16 +354,17 @@ p.slideLeft{
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: none;
+  object-position: top;
 }
 
 .portfolioSlider img.active {
   display: block;
 }
 
-
-.prevBtn, .nextBtn {
+.prevBtn,
+.nextBtn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -392,13 +388,15 @@ p.slideLeft{
   right: 10px;
 }
 
-.prevBtn svg, .nextBtn svg {
+.prevBtn svg,
+.nextBtn svg {
   width: 24px;
   height: 24px;
   fill: #000;
 }
 
-.prevBtn:hover svg, .nextBtn:hover svg {
+.prevBtn:hover svg,
+.nextBtn:hover svg {
   fill: var(--primaryIconColor);
 }
 
@@ -607,7 +605,7 @@ footer {
   .toggle__hamburgerMenu .line3 {
     transform: rotate(45deg) translate(-8px, -9px);
   }
-  
+
   /* nav */
   nav {
     position: fixed;
