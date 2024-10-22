@@ -12,7 +12,7 @@
 ### Website Preview
 <p align="center"> 
   <kbd>
-    <a href="https://yamizen24.github.io/StevanRevalino_Portfolio/" target="_blank"><img src="preview/main1.png">
+    <a href="https://yamizen24.github.io/StevanRevalino_Portfolio/" target="_blank"><img src="preview/mainGif.gif">
   </a>
   </kbd>
 </p>
