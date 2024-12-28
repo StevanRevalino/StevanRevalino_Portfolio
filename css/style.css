@@ -255,6 +255,7 @@ p.slideLeft {
 #services {
   background-color: var(--secondaryBackgroundColor);
   padding: var(--sectionPadding);
+  scroll-margin-top: 120px;
 }
 #services .preTitle {
   margin: 0 auto;
@@ -311,6 +312,7 @@ p.slideLeft {
 /* --portfolio first */
 #portfolios {
   padding: var(--sectionPadding);
+  scroll-margin-top: 100px;
 }
 .portfolio {
   border-radius: var(--itemBorderRadius);
@@ -441,6 +443,7 @@ p.slideLeft {
 #skills {
   background: var(--secondaryBackgroundColor);
   padding: var(--sectionPadding);
+  scroll-margin-top: 170px;
 }
 #skills .preTitle {
   margin: 0 auto;
